@@ -9,9 +9,4 @@ public class HelloController {
     public String hello() {
         return "hello";
     }
-
-    @GetMapping("/hidden-page")
-    public String hiddenPage() {
-        return "hidden-page";
-    }
 }
